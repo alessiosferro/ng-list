@@ -1,3 +1,4 @@
+import { TodoListModule } from './components/todo-list/todo-list.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -8,7 +9,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    TodoListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
